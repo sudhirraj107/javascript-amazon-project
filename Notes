@@ -1,0 +1,14 @@
+Modules-Better way to organise our code(in bigger projects)
+when using modules in script its necessary to open with live server,
+else the file will not open
+
+If theres a naming conflict, in that case we can use modules
+
+Steps
+1.Add type="module"
+2.Export the variable
+3.Import the variable
+
+Benefits of modules
+1.Helps us to avoi naming complex
+2

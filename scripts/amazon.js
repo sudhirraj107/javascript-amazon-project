@@ -1,3 +1,14 @@
+import {cart} from '../data/cart.js' 
+/*
+import {cart  as myCart} from '../data/cart.js' 
+this creates another variable named myCart and save the values of cart and that doest not result naming conflict,
+the variable cart can be used now
+*/
+ /*To get a variable out of the file
+ 1.add type="module"
+ 2.export
+ 3.import*/
+
 let productsHTML='';
 products.forEach((product) =>{
     productsHTML+=`<div class="product-container">
