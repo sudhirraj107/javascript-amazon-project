@@ -1,4 +1,5 @@
 import {cart} from '../data/cart.js' 
+import {products} from '../data/products.js' 
 /*
 import {cart  as myCart} from '../data/cart.js' 
 this creates another variable named myCart and save the values of cart and that doest not result naming conflict,
