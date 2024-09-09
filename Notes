@@ -24,5 +24,7 @@ types :
  i)Basic test cases 
  ii)Edge test cases
 
- Testing framework -Jasmine (popular testing framework)
+ Testing framework -1.create test suite 2.create tests 3.compare values
+ Jasmine (popular testing framework)
  other testing frameworks are Jest(for ReactJS) ,MochaJS
+
