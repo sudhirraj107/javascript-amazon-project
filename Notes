@@ -11,4 +11,15 @@ Steps
 
 Benefits of modules
 1.Helps us to avoi naming complex
-2
+
+Testing-
+types :
+ 1.Manual Testing - check by opening the website
+ Dis : * hard to test every situations (2000.5)
+ * hard to retest
+
+ 2.Autoamted Testing - using code to test code 
+
+ 2 Types of test cases 
+ i)Basic test cases 
+ ii)Edge test cases
