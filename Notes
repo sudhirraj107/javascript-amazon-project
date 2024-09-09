@@ -23,3 +23,6 @@ types :
  2 Types of test cases 
  i)Basic test cases 
  ii)Edge test cases
+
+ Testing framework -Jasmine (popular testing framework)
+ other testing frameworks are Jest(for ReactJS) ,MochaJS
