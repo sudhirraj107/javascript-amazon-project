@@ -28,3 +28,4 @@ types :
  Jasmine (popular testing framework)
  other testing frameworks are Jest(for ReactJS) ,MochaJS
 
+Flaky Test = test that sometimes passes and sometimes fails
