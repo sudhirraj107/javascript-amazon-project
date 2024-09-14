@@ -29,3 +29,15 @@ types :
  other testing frameworks are Jest(for ReactJS) ,MochaJS
 
 Flaky Test = test that sometimes passes and sometimes fails
+
+In the testing framework lesson 
+* Manual and automated tests
+* Test cases ans test suite
+* Testing framework = helps us to write tests easier
+* Mock and spy on methods
+* Test web pages using integration tests
+* Hooks
+
+Object oriented programming -orgainzing our code into objects
+
+tries to represent the real world
