@@ -2,15 +2,15 @@ class Cart { //PascalCase for things that generate objects
 
     cartItems;
 
-    localStorageKey;
+    #localStorageKey;  //# hash is added to keep the variable private whcih cant be used outside the class
 
     constructor(localStorageKey){
-        this.localStorageKey = localStorageKey;           
-        this.loadFromStorage();   
+        this.#localStorageKey = localStorageKey;           
+        this.#loadFromStorage();   
     };
 
-    loadFromStorage(){
-        this.cartItems=JSON.parse(localStorage.getItem(this.localStorageKey));
+    #loadFromStorage(){  //this function is a private function
+        this.cartItems=JSON.parse(localStorage.getItem(this.#localStorageKey));
         if(!this.cartItems){
         this.cartItems = [{
             productId : 'e43638ce-6aa0-4b85-b27f-e1d07eb678c6',
