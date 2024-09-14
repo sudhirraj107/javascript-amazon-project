@@ -41,3 +41,10 @@ In the testing framework lesson
 Object oriented programming -orgainzing our code into objects
 
 tries to represent the real world
+
+Class - helps us to generate these objects (object generator)
+
+Constructor -run this code without calling 
+
+1.Has to be named "constructor"
+2.Shouls not return anything
