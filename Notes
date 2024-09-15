@@ -60,3 +60,6 @@ Built-in-class = provided by the language
 DayJs uses this Date Class behind the scenes.
 DayJs gives us a lot of extra features.
 
+URL - Uniform Resource Locator
+-- Like an address, but for the internet.
+-- Helps us to locate another computer on the internet.
