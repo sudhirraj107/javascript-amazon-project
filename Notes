@@ -48,3 +48,9 @@ Constructor -run this code without calling
 
 1.Has to be named "constructor"
 2.Shouls not return anything
+
+Inheritence - let us reuse code between classes
+
+method overriding,polymorphism
+
+Polymorphism - Use a method without knowing the class
