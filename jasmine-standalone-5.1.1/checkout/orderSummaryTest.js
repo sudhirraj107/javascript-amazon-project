@@ -1,9 +1,16 @@
 import { renderOrderSummary } from "../../scripts/checkout/orderSummary.js";
 import { addToCart , cart ,loadFromStorage } from "../../data/cart.js";
+import { loadProducts } from "../../data/products.js";
 
 describe('Test suite :renderOrderSummary',() =>{
     const productId1 = 'e43638ce-6aa0-4b85-b27f-e1d07eb678c6'
     const productId2 = '15b6fc6f-327a-4ec4-896f-486349e85a3d'        
+
+    beforeAll((done) => {
+        loadProducts(() => {
+            done();
+        });
+    });
 
     beforeEach(()=>{
         spyOn(localStorage ,'setItem')
@@ -59,7 +66,7 @@ describe('Test suite :renderOrderSummary',() =>{
 
         // loadFromStorage();      
 
-        // renderOrderSummary(); /*No need because it is usesd as hook on top(beforeEach)*/
+        // renderOrderSummary(); /*No need because it is used as hook on top(beforeEach)*/
 
         expect(document.querySelectorAll('.js-cart-item-container').length).toEqual(2);
         expect(document.querySelector(`.js-product-quantity-${productId1}`).innerText).toContain('Quantity: 2');
