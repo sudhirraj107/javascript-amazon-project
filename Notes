@@ -54,3 +54,9 @@ Inheritence - let us reuse code between classes
 method overriding,polymorphism
 
 Polymorphism - Use a method without knowing the class
+
+Built-in-class = provided by the language
+
+DayJs uses this Date Class behind the scenes.
+DayJs gives us a lot of extra features.
+
