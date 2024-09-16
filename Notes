@@ -74,3 +74,14 @@ promise.all() - lets us run multiple promises at the same time
 async = makes a function return a promise 
 
 await = waits for a promise to finish
+
+4 types of request 
+
+GET = get something from the backend
+
+POST = create something
+
+PUT = update something
+
+DELETE = delete something
+
